@@ -1,0 +1,29 @@
+#buttons{
+    text-align: center;
+}
+#square{
+    
+    margin:2px;
+    border: 1px solid black;
+
+}
+
+#gridContainer{
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    height:1000;
+    width: 1000;
+    box-shadow: bisque;
+    
+}
+button{
+    font-size: 1.5rem;
+    border-radius:5px;
+
+}
+button:hover{
+    background-color: rgb 255,255,255 .80;
+    cursor: pointer;
+}
